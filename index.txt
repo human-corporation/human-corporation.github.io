@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Corporation</title>
+    <h1>"A place of work for all Humans"</h1>
+</head>
+<body>
+    <h2>Rules for Humans to Follow</h2>
+    <ul>
+        <li>Rule 1: No Frills, No Lies, Just Work</li>
+        <li>Rule 2: Bad Is More Interesting Than Good</li>
+        <li>Rule 3: Have Fun</li>
+    </ul>
+</body>
+</html>
