@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/photography style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Europa:wght@300&display=swap">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Photography Portfolio</h1>
+
+    <div class="gallery">
+        <img src="image1.jpg" alt="Photo 1" class="lightbox-trigger">
+        <img src="image2.jpg" alt="Photo 2" class="lightbox-trigger">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="Enlarged Photo" class="lightbox-img">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    </div>
+</div>
+
+<script>
+    // JavaScript function to open the lightbox
+    function openLightbox(src) {
+        document.querySelector('.lightbox-img').src = src;
+        document.querySelector('.lightbox').style.display = 'flex';
+    }
+
+    // JavaScript function to close the lightbox
+    function closeLightbox() {
+        document.querySelector('.lightbox').style.display = 'none';
+    }
+
+    // Add click event listeners to each image for the lightbox
+    document.querySelectorAll('.lightbox-trigger').forEach(function (element) {
+        element.addEventListener('click', function () {
+            openLightbox(element.src);
+        });
+    });
+</script>
+
+</body>
+</html>
+
+

@@ -2,9 +2,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Human Corporation</title>
+    <style>
+        body {
+          margin: 0;
+          overflow: hidden;
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+        }
+    
+        #caution-tape {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 50px;
+          background: repeating-linear-gradient(45deg, #f0f0f0, #f0f0f0 20px, #ffff00 20px, #ffff00 40px);
+          animation: scrollRight 10s linear infinite;
+        }
+    
+        @keyframes scrollRight {
+          to {
+            transform: translateX(100%);
+          }
+        }
+    
+        #construction-message {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 24px;
+          color: #ff0000;
+          font-weight: bold;
+          animation: flashText 1s ease-in-out infinite;
+        }
+    
+        @keyframes flashText {
+          0%, 100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0;
+          }
+        }
+      </style>
 </head>
 <body>
+    <div id="caution-tape"></div>
+    <div id="construction-message">Site Under Construction</div>
     <h1>Human Corporation</h1>
     <h2>Rules for Humans to Follow</h2>
     <ul>
@@ -12,5 +57,6 @@
         <li>Rule 2: Bad Is More Interesting Than Good</li>
         <li>Rule 3: Have Fun</li>
     </ul>
+    <a href="photography.html">Photography</a>
 </body>
 </html>
