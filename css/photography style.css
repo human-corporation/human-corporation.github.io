@@ -100,6 +100,19 @@ nav a:hover {
     text-align: center;
 }
 
+/* Style the photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum 200px column width */
+    grid-gap: 20px; /* Spacing between grid items */
+}
+
+/* Style individual photos */
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Style your photos as needed within .series-photos */
 /* Example:
 .series-photos img {
