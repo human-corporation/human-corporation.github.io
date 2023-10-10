@@ -37,8 +37,6 @@ body {
     font-family: 'Europa', sans-serif;
     margin: 20;
     padding: 20;
-    margin-top: 20px;
-    padding-top: 20px; 
     background-color: #ffffff;
     color: #000000;
 }
@@ -47,7 +45,6 @@ header {
     background-color: #ffffff;
     color: #000000;
     padding: 0px;
-    padding-bottom: 20px; 
     text-align: left;
     font-family: 'Europa', sans-serif;
 }
