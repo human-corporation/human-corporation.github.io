@@ -45,9 +45,12 @@ body {
 
 /* Center-align the header */
 header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    padding-bottom: 20px; 
     text-align: left;
-    background-color: #fff; /* White background for the header */
-    padding: 20px;
+    font-family: 'Europa', sans-serif;
 }
 
 nav {

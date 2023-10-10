@@ -34,7 +34,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a {
 
 
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Europa', sans-serif;
     margin: 20;
     padding: 20;
     margin-top: 20px;
@@ -45,7 +45,7 @@ body {
 header {
     background-color: #ffffff;
     color: #000000;
-    padding: 15px;
+    padding: 5px;
     padding-bottom: 20px; 
     text-align: left;
     font-family: 'Europa', sans-serif;
@@ -55,7 +55,7 @@ nav {
     display: flex;
     justify-content: left;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
@@ -68,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .container {
