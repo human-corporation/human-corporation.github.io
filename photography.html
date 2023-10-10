@@ -8,51 +8,34 @@
     <title>Photography Portfolio</title>
 </head>
 <body>
-
-<div class="container">
     <header>
-        <h1>Human Photography</h1>
+        <h1>Your Photography Portfolio</h1>
     </header>
-
     <nav>
         <a href="photography.html">Photography</a>
         <a href="page2.html">Page 2</a>
         <a href="page3.html">Page 3</a>
         <a href="page4.html">Page 4</a>
     </nav>
-
-    <div class="gallery">
-        <img src="image1.jpg" alt="Photo 1" class="lightbox-trigger">
-        <img src="image2.jpg" alt="Photo 2" class="lightbox-trigger">
-        <!-- Add more images as needed -->
-    </div>
-
-    <div class="lightbox" id="lightbox">
-        <img src="" alt="Enlarged Photo" class="lightbox-img">
-        <span class="close-btn" onclick="closeLightbox()">&times;</span>
-    </div>
-</div>
-
-<script>
-    // JavaScript function to open the lightbox
-    function openLightbox(src) {
-        document.querySelector('.lightbox-img').src = src;
-        document.querySelector('.lightbox').style.display = 'flex';
-    }
-
-    // JavaScript function to close the lightbox
-    function closeLightbox() {
-        document.querySelector('.lightbox').style.display = 'none';
-    }
-
-    // Add click event listeners to each image for the lightbox
-    document.querySelectorAll('.lightbox-trigger').forEach(function (element) {
-        element.addEventListener('click', function () {
-            openLightbox(element.src);
-        });
-    });
-</script>
-
+    <section class="photo-series">
+        <div class="series-header">
+            <h2>Series 1: Nature</h2>
+            <p>Beautiful landscapes and wildlife</p>
+        </div>
+        <div class="series-photos">
+            <!-- Add your photos for Series 1 here -->
+        </div>
+    </section>
+    <section class="photo-series">
+        <div class="series-header">
+            <h2>Series 2: Portraits</h2>
+            <p>Captivating portraits of people</p>
+        </div>
+        <div class="series-photos">
+            <!-- Add your photos for Series 2 here -->
+        </div>
+    </section>
+    <!-- Add more sections for other photo series as needed -->
 </body>
 </html>
 
