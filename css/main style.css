@@ -25,9 +25,6 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a {
   /* Style links on hover in black */
   a:hover {
     color: black;
-    font-family: Tahoma, Verdana, Helvetica, sans-serif /* Replace 'RandomFont1' with the desired random font */
-  /* You can add more font choices by separating them with commas */
-  /* Example: font-family: 'RandomFont1', 'RandomFont2', sans-serif; */
   }
   
   /* Style links when active (clicked) in black */
@@ -76,7 +73,7 @@ nav a:hover {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
